@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <>
       <h1>Home Page</h1>
-      <Link href='/Submission-page'>
+      <Link href='/Student-Report-Form'>
         <div className="w-full h-20 bg-white"></div>
       </Link>
     </>
