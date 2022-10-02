@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <View>Hi!</View>
+      <h1>Admin View</h1>
     </>
   )
 }
