@@ -9,7 +9,8 @@ const Admin = () =>
         { name: 'Aidan Ouckama', description: 'Bullied Marcus Hom on Tiktok.', pfp: '/student-pfps/aidan.jpg', offense: true },
         { name: 'Aidan Ouckama', description: 'Bullied Marcus Hom on Tiktok. (2nd Offense)', pfp: '/student-pfps/aidan.jpg', offense: true },
         { name: 'Aidan Ouckama', description: 'Bullied Marcus Hom on Tiktok. (3rd Offense)', pfp: '/student-pfps/aidan.jpg', offense: true },
-        { name: 'Aidan Ouckama', description: 'Bullied Marcus Hom on Tiktok. (4th Offense)', pfp: '/student-pfps/aidan.jpg', offense: true }
+        { name: 'Aidan Ouckama', description: 'Bullied Marcus Hom on Tiktok. (4th Offense)', pfp: '/student-pfps/aidan.jpg', offense: true },
+        { name: 'Marcus Hom', description: 'Bullied on TikTok', pfp: '/student-pfps/marcus.jpg', offense: false }
     ]
 
     return (
