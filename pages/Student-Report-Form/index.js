@@ -1,7 +1,9 @@
-const Report =() =>
+import Link from 'next/link'
+
+const Report = () =>
 {
     return(
-        <div className = 'flex flex-col gap-5 items-evenly w-screen h-screen p-2'>
+        <div className = 'flex flex-col gap-5 items-evenly w-screen h-screen p-16'>
             <h1>Report a concern</h1>
             <input 
                 className = ' w-2/4 border-2 border-black p-2'
@@ -22,12 +24,14 @@ const Report =() =>
                 >
                     Add file +
                 </button>
-            <button
-                type='submit'
-                className='w-36 px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700'
-            >
-                Submit 
-            </button>
+            <Link href='/submission-page'>
+                <button
+                    type='submit'
+                    className='w-36 px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700'
+                >
+                    Submit 
+                </button>
+            </Link>
 
             
         </div>
