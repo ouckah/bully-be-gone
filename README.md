@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SASE Hackathon 2022
+Placement: 5th (out of 11)
+https://sasehack-fall-2022.devpost.com/
+### Topic:
+A solution to cyber-bullying / preventing cyber-bullying.
 
-## Getting Started
+A fun and FIRST hackathon I did with two of my friends
+Slideshow: https://docs.google.com/presentation/d/1OH3xtY1naMnnPPmHV6PxlsJNyb7WYEaK7IobWOBuojE/edit?usp=sharing
 
-First, run the development server:
+We built a database system using Next and Tailwind CSS that collects reports of cyber-bullying / bullying with the goal of stopping bullying.
+Features:
+- Students can submit reports of bullying/cyberbullying
+- Each report will ask a set of questions to help admins determine the situation, optional to include screenshots to help verify (so no false reports are submitted)
+- From the admin’s view, a directory of all students can be shown through ‘accounts’; students with reports directed at them will be flagged red for review, students that submit reports will also be flagged blue for supervision with their mental health
+- All reports will be kept in the school database for bookkeeping, so evidence can be preserved
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Challenges faced:
+- This is the first hackathon for all 3 members, so we needed to learn how to brainstorm and split the workload…
+- My members also have never used Next js and Github before, so they had to learn on the fly (I taught them)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### What we learned:
+- My members were able to learn Next js, Tailwind CSS, and Github
+- Working collaboratively on a project, we were able to learn how to use github as a team
+- Time management is very important regarding hackathons!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
